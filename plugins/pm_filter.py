@@ -30,7 +30,7 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
 
-@Client.on_message(filters.group & filters.text & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.incoming & filters.group)
+@Client.on_message(filters.group & filters.text & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.incoming & filters.group & filters.chat(-1001636882705))
 async def give_filter(client, message):
     k = await manual_filters(client, message)
     if k == False:
@@ -114,7 +114,7 @@ async def next_page(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
-@Client.on_message(filters.group & filters.text & filters.incoming)
+@Client.on_message(filters.group & filters.text & filters.incoming & filters.chat(-1001636882705))
 async def private_give_filter(client, message):
         await auto_filter(client, message)
 
