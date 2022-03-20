@@ -1,17 +1,18 @@
 class script(object):
-    START_TXT = """<b>𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂-SERIES, 😍
+    START_TXT = """<b> HELLO  {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, I CAN PROVIDE YOU MOVIES-SERIES, 😍
+
 📌Bot will be off Everyday 12am - 7am at night for saving heroku dyno hours!😐</b>"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯<b> 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+    HELP_TXT = """HEY {}
+MY COMMANDS."""
+    ABOUT_TXT = """✯<b> MY NAME: {}
 ➥ Owner : <a href='https://t.me/sdmoviesflixofficial'>SDMOVIESFLIX</a>
 ➥ MAIN Channel : <a href='https://t.me/sdmoviesflixofficial'>SDMOVIESFLIXOFFICIAL</a>
 ➥ Main Group : <a href='https://t.me/+F_s_7N05VRZlMzI1'>Chat🍿Room</a>
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]</b>"""
-    SOURCE_TXT = """<b>NOTE:</b>
+✯ BUILD STATUS: v1.0.1 [ BETA ]</b>"""
+    SOURCE_TXT = """<b>NOTE:
 This is a Personal source project.
-Source: <a href='https://t.me/sdmoviesflixcontact_bot'>Contact - Click here 👈</a>
+Source: <a href='https://t.me/sdmoviesflixcontact_bot'>Contact - Click here 👈</a></b>
 
 <b>DEVS:</b>
 - <a href='https://t.me/sdmoviesflixnew'>Admin </a>"""
@@ -39,7 +40,7 @@ Source: <a href='https://t.me/sdmoviesflixcontact_bot'>Contact - Click here 👈
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/SDMOVIESFLIXOFFICIAL)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
