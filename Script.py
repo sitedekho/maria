@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b> HELLO  {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, I CAN PROVIDE YOU MOVIES-SERIES, 😍
+MY NAME IS <a href=https://t.me/{}>{}</a>, I CAN PROVIDE YOU MOVIES-SERIES, 😍
 
 📌Bot will be off Everyday 12am - 7am at night for saving heroku dyno hours!😐</b>"""
     HELP_TXT = """HEY {}
